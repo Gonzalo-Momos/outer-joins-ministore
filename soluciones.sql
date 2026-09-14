@@ -1,6 +1,6 @@
 -- ══════════════════════════════════════════
 -- MiniStore — Soluciones con Outer JOINs
--- Autor: [Gonzalo Balmaceda]
+-- Autor: [Gonzalo Ariel Balmaceda]
 -- Fecha: [14/09/2026]
 -- ══════════════════════════════════════════
 
