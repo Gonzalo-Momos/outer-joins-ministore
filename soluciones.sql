@@ -44,5 +44,5 @@ SELECT p.producto_id,
        v.cantidad
 FROM productos p
 FULL OUTER JOIN ventas v ON p.producto_id = v.producto_id
---OPCIONAL
-WHERE p.producto_id IS NULL OR v.venta_id IS NULL;
+-- Variante opcional para aislar únicamente inconsistencias/anomalías:
+-- WHERE p.producto_id IS NULL OR v.venta_id IS NULL;
